@@ -113,7 +113,7 @@ type Response struct {
 }
 
 func (s Service) Generate(ctx context.Context, r Request) (*Response, error) {
-	if r.DisablePromExprValidation == false {
+	if !r.DisablePromExprValidation {
 		err := r.SLOGroup.Validate()
 		if err != nil {
 			return nil, fmt.Errorf("invalid SLO group: %w", err)
