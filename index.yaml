@@ -1,0 +1,15 @@
+apiVersion: v1
+entries:
+  sloth:
+  - apiVersion: v2
+    created: "2024-11-11T09:41:19.651535532Z"
+    description: Base chart for Sloth.
+    digest: fdf8353d8722c903b066b529e7db202ddd8e4d64dece2b699c1fdffb52ace2a2
+    home: https://github.com/jan-benedikt/sloth
+    kubeVersion: '>= 1.19.0-0'
+    name: sloth
+    type: application
+    urls:
+    - https://github.com/jan-benedikt/sloth/releases/download/sloth-helm-chart-0.7.0/sloth-0.7.0.tgz
+    version: 0.7.0
+generated: "2024-11-11T09:41:19.651633533Z"
